@@ -26,7 +26,6 @@
       "@/ui/*": ["./app/components/ui/*"],
       "@/sections/*": ["./app/sections/*"],
       "@/components/*": ["./app/components/*"],
-      "@/config/*": ["./config/*"],
       "@/data/*": ["./data/*"],
       "@/utils/*": ["./utils/*"]
     }
