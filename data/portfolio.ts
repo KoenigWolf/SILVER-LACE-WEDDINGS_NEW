@@ -1,4 +1,4 @@
-import type { Category } from "@/constants/categories";
+import type { Category } from "@/config/categories";
 
 export interface PortfolioItem {
   id: string;

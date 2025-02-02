@@ -1,12 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import type { FormEvent } from "react";
-import HeroSection from "./components/hero-section";
-import PortfolioSection from "./components/portfolio-section";
-import ServicesSection from "./components/services-section";
-import TestimonialsSection from "./components/testimonials-section";
-import AboutSection from "./components/about-section";
-import ContactSection from "./components/contact-section";
+
+import HeroSection from "@/sections/Hero";
+import PortfolioSection from "@/sections/Portfolio";
+import ServicesSection from "@/sections/Services";
+import TestimonialsSection from "@/sections/Testimonials";
+import AboutSection from "@/sections/About";
+import ContactSection from "@/sections/Contact";
+
 import { testimonials } from "@/data/testimonials";
 
 export default function Page() {
